@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- Arquivo JavaScript -->
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Arquivo JS -->
+    <script src="js/script.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="/img/sol.png">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h3>Pesquise por uma cidade, e confira o clima.</h3>
+            <div class="form-input-container">
+                <input type="text" placeholder="Digite o nome da cidade" id="city-input">
+            </div>
+            <button id="search">
+                Pesquisar
+            </button>
+
+            <div id="msg-error" class="hide-2">
+                <p>Ops! Cidade não encontrada,<br>tente novamente...</p>
+            </div>
+        </div>
+        
+        <div id="weather-data" class="hide-1 container-info">
+            <h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="city"></span>
+                <span>-</span>
+                <span id="country"></span>
+            </h3>
+            <h3>
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <span>Máxima de </span>
+                <p id="temperature-max"><span></span>&deg;C</p>
+            </h3>
+            <h3>
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <span>Mínima de </span>
+                <p id="temperature-min"><span></span>&deg;C</p>
+            </h3>
+            <div id="description-container">
+                <img src="" alt="Condições do tempo" id="weather-icon">
+                <p id="description"></p>
+            </div>
+            <div id="details-container">
+                <p id="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span></span>
+                </p>
+                <p id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

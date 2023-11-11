@@ -1,6 +1,6 @@
 ## 📌 OpenWeatherMap
 
-- É um serviço online, de propriedade da OpenWeather, que fonece dados meteorológicos globais via API, incluindo dados meteorológicos atuais, previsões e dados meteorológicos, históricos para qualquer localização geográfica.
+- É um serviço online, de propriedade da OpenWeather, que fornece dados meteorológicos globais via API, incluindo dados meteorológicos atuais, previsões e dados meteorológicos, históricos para qualquer localização geográfica.
 
 ## 📚 Materiais
 

@@ -1,6 +1,6 @@
 // váriaveis e seleção de elementos
 // adicione entre as aspas a sua chave
-const apiKey = "";
+const apiKey = "370940304e2aa7bbb9df53965d2c78c6";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search");

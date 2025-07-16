@@ -2,6 +2,10 @@
 
 - É um serviço online, de propriedade da OpenWeather, que fornece dados meteorológicos globais via API, incluindo dados meteorológicos atuais, previsões e dados meteorológicos, históricos para qualquer localização geográfica.
 
+### 📍 Screenshots
+
+<img src="img/previa.png" width="100%">
+
 ## 📚 Materiais
 
 - CSS (Cascading Style Sheets)

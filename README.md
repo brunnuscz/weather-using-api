@@ -22,3 +22,6 @@
 
 ## 🚀 Final
 - Para que a aplicação funcione corretamente na sua máquina, é preciso que crie uma conta na OpenWeatherMap, vai ser gerado uma chave. Vá em `nome do usuário`, clique em `My API keys` copie e cole a chave no arquivo `script.js`.
+
+## 🚀 Você pode ver a página criada em:
+<a href="https://brunnuscz.github.io/weather-using-api/"> Projeto Weather Using Api</a>
